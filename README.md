@@ -1,10 +1,15 @@
 # check-tb-nodejs
 
+![Check License Plate Score](images/check-tb-nodejs.png)
+
 ```
 # npm install prompt-sync
 # Usage:
 node index.js
 Enter หมวดอักษร: กย
+```
+
+```
 หมวดอักษร: กย
 กย = 9
 กย 1001 : 11 : F
@@ -310,8 +315,6 @@ Enter หมวดอักษร: กย
 กย 9797 : 41 : A+
 
 ```
-
-![Check License Plate Score](images/check-tb-nodejs.png)
 
 
 
