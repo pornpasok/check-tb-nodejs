@@ -6,10 +6,11 @@
 # npm install prompt-sync
 # Usage:
 node index.js
-Enter หมวดอักษร: กย
+
 ```
 
 ```
+Enter หมวดอักษร: กย
 หมวดอักษร: กย
 กย = 9
 กย 1001 : 11 : F
