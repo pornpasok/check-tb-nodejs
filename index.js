@@ -123,7 +123,7 @@ function digit_sum(str) {
     for (let char of str) {
       sum += +char;
     }
-    return sum
+    return sum;
 }
 
 
@@ -135,7 +135,7 @@ for (j = 0; j < tbs.length; j++) {
     //console.log(tb_sum);
     
     // TB, Score, Grade, Color
-    if (check_score_grade(tb_sum) == 'A+') {
+    if (check_score_grade(tb_sum) == 'A') {
         console.log('\x1b[32m%s\x1b[0m', `${chars} ${tbs[j]} : ${tb_sum} : ${check_score_grade(tb_sum)}`);
     }
     else if (check_score_grade(tb_sum) == 'F') {
